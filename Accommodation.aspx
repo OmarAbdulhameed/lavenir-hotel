@@ -49,7 +49,7 @@
                     <td class="auto-style4">
                         <asp:Button ID="Button6" runat="server" PostBackUrl="~/HomePage.aspx" Text="Home" />
                     </td>
-                    <td class="auto-style5">Accommodations</td>
+                    <td class="auto-style5">Accommodations </td>
                 </tr>
             </table>
                     </div>
