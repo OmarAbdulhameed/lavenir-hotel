@@ -33,6 +33,20 @@
         }
 
 
+        .auto-style3 {
+            width: 100%;
+            height: 134px;
+        }
+        .auto-style4 {
+            width: 49px;
+        }
+        .auto-style5 {
+            width: 482px;
+            font-weight: bold;
+            font-size: x-large;
+        }
+
+
     </style>
 
    
@@ -41,25 +55,28 @@
 <body>
     <form id="form1" runat="server">
         <div class="auto-style1">
-            <strong>Lavenir Hotel<br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            </strong>
-        </div>
+            <table class="auto-style3">
+                <tr>
+                    <td class="auto-style4">
+                        <asp:Button ID="Button6" runat="server" PostBackUrl="~/HomePage.aspx" Text="Home" />
+                    </td>
+                    <td class="auto-style5">Sign-in</td>
+                </tr>
+            </table>
+                    </div>
         <table align="center" class="auto-style2">
             <tr>
                 <td class="auto-style8">E-mail:</td>
                 <td class="auto-style8">
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtEmail1" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtEmail1" ErrorMessage="E-mail Required"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style8">Password:</td>
                 <td class="auto-style8">
-                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtPass1" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtPass1" ErrorMessage="Password required"></asp:RequiredFieldValidator>
                 </td>
             </tr>
         </table>

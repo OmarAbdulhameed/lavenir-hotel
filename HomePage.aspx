@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="helpers.css" type="text/css" rel="stylesheet" />
     <style type="text/css">
         .auto-style1 {
             width: 856px;
@@ -53,13 +54,13 @@
             </tr>
             <tr>
                 <td class="auto-style11">
-                    <asp:Button ID="Button8" runat="server" Text="Accommodation" PostBackUrl="~/Accommodation.aspx" />
+                    <asp:Button ID="Button8" runat="server" Text="Accommodation" PostBackUrl="~/Accommodation.aspx" CssClass="buttonReset" />
                 </td>
                 <td class="auto-style15">
-                    <asp:Button ID="Button9" runat="server" Text="Sign Up" PostBackUrl="~/SignUp.aspx" />
+                    <asp:Button ID="Button9" runat="server" Text="Sign Up" PostBackUrl="~/SignUp.aspx" CssClass="buttonReset" />
                 </td>
                 <td class="auto-style15">
-                    <asp:Button ID="Button10" runat="server" Text="Sign In" PostBackUrl="~/SignIn.aspx" />
+                    <asp:Button ID="Button10" runat="server" Text="Sign In" PostBackUrl="~/SignIn.aspx" CssClass="buttonReset" />
                 </td>
             </tr>
             <tr>
@@ -67,7 +68,7 @@
             </tr>
             <tr>
                 <td class="auto-style2" colspan="3">
-                    <asp:Button ID="Button7" runat="server" Text="Book Now" OnClick="Button7_Click" PostBackUrl="~/BookingPage.aspx" />
+                    <asp:Button ID="Button7" runat="server" Text="Book Now" OnClick="Button7_Click" PostBackUrl="~/BookingPage.aspx" CssClass="buttonReset" />
                 </td>
             </tr>
         </table>

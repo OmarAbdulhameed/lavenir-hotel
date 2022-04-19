@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Accommodation.aspx" />
     <Content Include="BookingPage.aspx" />
+    <Content Include="helpers.css" />
     <Content Include="Payment.aspx" />
     <Content Include="SignIn.aspx" />
     <Content Include="SignUp.aspx" />
