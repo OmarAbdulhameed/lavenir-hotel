@@ -18,5 +18,15 @@ namespace Lavenir
         {
 
         }
+
+        protected void Button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

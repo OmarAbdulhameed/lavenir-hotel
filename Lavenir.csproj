@@ -67,23 +67,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Accommodation.aspx" />
+    <Content Include="App_Data\Lavenir.mdf" />
+    <Content Include="App_Data\Lavenir_log.ldf">
+      <DependentUpon>Lavenir.mdf</DependentUpon>
+    </Content>
     <Content Include="BookingPage.aspx" />
     <Content Include="helpers.css" />
     <Content Include="Payment.aspx" />
     <Content Include="SignIn.aspx" />
     <Content Include="SignUp.aspx" />
+    <Content Include="Sign.css" />
     <Content Include="Web.config" />
     <Content Include="HomePage.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Accommodation.aspx.cs">
-      <DependentUpon>Accommodation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Accommodation.aspx.designer.cs">
-      <DependentUpon>Accommodation.aspx</DependentUpon>
-    </Compile>
     <Compile Include="BookingPage.aspx.cs">
       <DependentUpon>BookingPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
