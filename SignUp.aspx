@@ -58,11 +58,6 @@
         }
 
 
-        .auto-style10 {
-            font-size: large;
-        }
-
-
         .auto-style11 {
             width: 856px;
             height: 130px;
@@ -103,15 +98,15 @@
             <tr>
                 <td class="auto-style7">First Name:</td>
                 <td class="auto-style7">
-                    <asp:TextBox ID="txtname1" runat="server"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtname1" ErrorMessage="Required" BackColor="Red"></asp:RequiredFieldValidator>
+                    <asp:TextBox ID="txtFname" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtFname" ErrorMessage="Required" BackColor="Red"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style7">Last Name:</td>
                 <td class="auto-style7">
-                    <asp:TextBox ID="txtname2" runat="server"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtname2" ErrorMessage="Required" BackColor="Red"></asp:RequiredFieldValidator>
+                    <asp:TextBox ID="txtLname" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtLname" ErrorMessage="Required" BackColor="Red"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -166,7 +161,7 @@
             </tr>
             <tr>
                 <td class="auto-style12" colspan="2">
-            <asp:Button ID="btnsignup" runat="server" Text="Sign-up" BackColor="#859EAD" BorderWidth="0px" CssClass="auto-style10" OnClick="btnsignup_Click" />
+            <asp:Button ID="btnsignup" runat="server" Text="Sign-Up" BackColor="Transparent" BorderWidth="0px" Height="47px" OnClick="Button9_Click" Width="91px" />
                 </td>
             </tr>
             <tr>

@@ -33,13 +33,13 @@ namespace Lavenir
         protected global::System.Web.UI.WebControls.Button Button7;
 
         /// <summary>
-        /// txtname1 control.
+        /// txtFname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtname1;
+        protected global::System.Web.UI.WebControls.TextBox txtFname;
 
         /// <summary>
         /// RequiredFieldValidator1 control.
@@ -51,13 +51,13 @@ namespace Lavenir
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
 
         /// <summary>
-        /// txtname2 control.
+        /// txtLname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtname2;
+        protected global::System.Web.UI.WebControls.TextBox txtLname;
 
         /// <summary>
         /// RequiredFieldValidator2 control.

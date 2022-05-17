@@ -33,13 +33,13 @@ namespace Lavenir
         protected global::System.Web.UI.WebControls.Button Button7;
 
         /// <summary>
-        /// txtEmail1 control.
+        /// txtusername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail1;
+        protected global::System.Web.UI.WebControls.TextBox txtusername;
 
         /// <summary>
         /// RequiredFieldValidator1 control.
@@ -51,13 +51,13 @@ namespace Lavenir
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
 
         /// <summary>
-        /// txtPass1 control.
+        /// txtpass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPass1;
+        protected global::System.Web.UI.WebControls.TextBox txtpass;
 
         /// <summary>
         /// RequiredFieldValidator2 control.
@@ -69,12 +69,21 @@ namespace Lavenir
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
 
         /// <summary>
-        /// Button8 control.
+        /// btnsignin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button8;
+        protected global::System.Web.UI.WebControls.Button btnsignin;
+
+        /// <summary>
+        /// lblMsg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMsg;
     }
 }

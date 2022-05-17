@@ -87,23 +87,24 @@
                     </div>
         <table align="center" class="auto-style2">
             <tr>
-                <td class="auto-style13">E-mail:</td>
+                <td class="auto-style13">Username:</td>
                 <td class="auto-style8">
-                    <asp:TextBox ID="txtEmail1" runat="server"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtEmail1" ErrorMessage="Required" BackColor="Red"></asp:RequiredFieldValidator>
+                    <asp:TextBox ID="txtusername" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtusername" ErrorMessage="Required" BackColor="Red"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style13">Password:</td>
                 <td class="auto-style8">
-                    <asp:TextBox ID="txtPass1" runat="server" TextMode="Password"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtPass1" ErrorMessage="Required" BackColor="Red"></asp:RequiredFieldValidator>
+                    <asp:TextBox ID="txtpass" runat="server" TextMode="Password"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtpass" ErrorMessage="Required" BackColor="Red"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style14" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button8" runat="server" Text="Sign-In" BackColor="#859EAD" BorderWidth="0px" CssClass="auto-style12" />
-                    &nbsp;</td>
+            <asp:Button ID="btnsignin" runat="server" Text="Sign-in" BackColor="Transparent" BorderWidth="0px" Height="47px" OnClick="Button8_Click" Width="91px" />
+                    &nbsp;<asp:Label ID="lblMsg" runat="server"></asp:Label>
+                </td>
             </tr>
         </table>
         <p class="auto-style9">
